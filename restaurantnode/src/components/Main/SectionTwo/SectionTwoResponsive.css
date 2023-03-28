@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px)  {
+.slider-elem p{
+    max-width: 80%;
+}
+    }

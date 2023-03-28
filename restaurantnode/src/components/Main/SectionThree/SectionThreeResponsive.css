@@ -1,0 +1,19 @@
+@media screen and (max-width: 1170px)  {
+.ingredients-container{
+    flex-wrap: wrap;
+}
+.ingredients-container-left{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.ingredients-container-left p{
+    max-width: 80%;
+}
+.ingredients-container-right{
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    }

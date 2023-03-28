@@ -1,0 +1,11 @@
+@media screen and (max-width: 1140px) {
+    .chef-container{
+        flex-wrap: wrap;
+        padding-top: 120px;
+        max-width: 100%;
+
+    }
+    .chef-container-left{
+        width: 80%;
+    }
+}

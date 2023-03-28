@@ -1,0 +1,25 @@
+@media screen and (max-width: 1340px) {
+    .menu-cards {
+        max-width: 940px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menu-cards {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .menu-item{
+        width: 90%;
+        align-items: center;
+        text-align: center;
+    }
+    .menu-item img{
+        width: 80%;
+      }
+      .menu-item .add-to-cart{
+        width: 30%;
+      }
+}

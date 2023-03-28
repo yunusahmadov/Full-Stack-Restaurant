@@ -1,0 +1,30 @@
+.swiperHeader .swiper {
+    width: 100vw;
+    min-height:100vh;
+  }
+  
+.swiperHeader .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    /* transition: 3s; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+.swiperHeader .swiper-slide img{
+    display: block;
+    width: 100%;
+    min-height:100vh;
+  background-position: 0%;
+    /* transition: 3s; */
+    object-fit: cover;
+  }
+.swiperHeader .text-container{
+    position: absolute;
+
+  }
+.swiperHeader .swiper-button-next,
+  .swiper-button-prev{
+        color: white;
+  }

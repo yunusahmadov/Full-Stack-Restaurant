@@ -1,0 +1,52 @@
+.slider-comments{
+    /* height: 200px; */
+    width: 100%;
+    overflow-y: hidden;
+    background-image: url('../../../images/parallax.jpg');
+}
+.sectionTwo{
+    margin-bottom: 70px;
+    transform: translateZ(-1px);
+}
+.slick-slider{
+    height: 100%;
+}
+.slick-list{
+    height: 100%;
+}
+.slick-dots{
+   bottom: 20px;
+}
+.slick-dots li{
+    overflow: hidden;
+}
+.sectionTwo .slick-prev,.slick-next{
+height: 40px;
+width: 40px;
+}
+.slick-dots li button:before{
+    color: white !important;
+    font-size: 15px;
+}
+.slider-elem{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.slider-elem img{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.slider-elem p{
+   color: white;
+   font-size: 22px;
+   max-width: 50%;
+   text-align: center;
+}
+.slider-elem h3{
+    color: white;
+    font-size: 15px;
+   padding-top: 20px;
+   padding-bottom: 120px;
+ }
